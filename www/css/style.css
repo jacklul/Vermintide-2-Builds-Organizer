@@ -1,0 +1,232 @@
+body {
+	background-color: #242424;
+    margin: 10px;
+}
+
+.header {
+    text-decoration: none;
+    color: #000;
+}
+
+.build:target {
+    border: 1px solid #f5f83f !important;
+}
+
+.build, .item {
+    width: 100%;
+    border: 1px dotted #777777;
+    margin: 0 auto;
+    padding: 3px;
+    display: block;
+    border-bottom: none;
+}
+
+.builds .build:last-child,
+.items .item:last-child {
+    border-bottom: 1px dotted #777777;
+}
+
+.build-link {
+    color: #6cc5eb;
+}
+
+.build-actions, .build-move, .item-actions {
+    float: right;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+.build-actions, .item-actions .fa {
+    margin-right: 5px;
+}
+
+.fa {
+    font-size: 18px;
+}
+
+.item-actions {
+    font-size: 11px;
+    margin-left:35px;
+}
+
+.missing {
+    color: red;
+}
+
+.present {
+    color: green;
+}
+
+table.talents .filled {
+    background-color: #adadad;
+}
+
+table.talents {
+    margin: 0 auto;
+    border: none;
+    width: 60px;
+}
+
+table.talents tr {
+    border: none;
+}
+
+table.talents td {
+    margin: 0;
+    padding: 2px;
+    line-height: 12px;
+}
+
+table.talents tbody td {
+    min-width: 20px;
+    width: 20px;
+    min-height: 20px;
+    height: 20px;
+}
+
+.build-details {
+    border-top: 1px dashed #777777;
+}
+
+.build-details table.build-table {
+    margin: 0 auto;
+    padding: 0;
+}
+
+table.build-table td {
+    border: 1px solid #777777;
+    margin: 0;
+    padding: 3px 8px;
+}
+
+table.build-table td {
+    text-align: center;
+}
+
+.add {
+    font-size: 12px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.ref-link {
+    margin-left: 10px;
+}
+
+#nav a {
+    font-size: 20px;
+}
+
+.wrapper {
+    padding: 1px;
+    margin: 5px 0;
+}
+
+textarea {
+    font-size: 18px;
+    width: 100%;
+    min-height: 600px;
+}
+
+.hero {
+    border: 1px dotted #777777;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+}
+
+.build, .item {
+    width: 99%;
+    display: block;
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4 {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.build-actions {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 80px;
+    text-align: right;
+}
+
+.build-move {
+    margin-right: 5px;
+    width: 50px;
+    text-align: right;
+}
+
+.green {
+    color:rgb(40, 200, 40);
+}
+
+.red {
+    color:rgb(255, 0, 0);
+}
+
+.yellow {
+    color:rgb(255, 255, 0);
+}
+
+.lightgreen {
+    color:rgb(100, 200, 100);
+}
+
+.lightred {
+    color:rgb(255, 125, 125);
+}
+
+textarea {
+    background-color: #777777;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 27px;
+	padding-top: unset;
+	padding-bottom: unset;
+	border-bottom: unset;
+	border-top: unset;
+}
+
+input, select {
+    background-color: #777777;
+    border: none;
+    font-size: 22px;
+}
+
+input[type=submit] {
+    margin: 5px;
+}
+
+::placeholder {
+    color: #3d3d3d;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+input[type=checkbox] {
+    width: 17px;
+    height: 17px;
+}
+
+.hero > h2 {
+    margin-left: 8px;
+}
+
+.hero > h3 {
+    margin-left: 8px;
+}
